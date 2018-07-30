@@ -1,5 +1,7 @@
 # Simple micro service to test Ribbon client side load balancing
 
+* Part of [micro services demo](https://github.com/maurofokker/microservices-demo)
+* Will be consumed by [spring-microservices-ribbon project](https://github.com/maurofokker/spring-microservices-ribbon)
 * Run 3 instances of this service using (intellij -> VM Options)
   * `-Dserver.port=7777`
   * `-Dserver.port=8888`
